@@ -1,0 +1,9 @@
+﻿@model MatchService.Models.GetDatesViewModel
+
+<h2>Choose date:</h2>
+@foreach(var date in Model.Dates)
+{
+    <div>
+        @Html.ActionLink(date.ToShortDateString(), "GetMatches", new { stadiumId = Model.StadiumId, date = date })
+    </div>
+}

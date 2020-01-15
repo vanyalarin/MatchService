@@ -1,0 +1,11 @@
+E:\MatchService\MatchService.Data\bin\Debug\MatchService.Data.dll.config
+E:\MatchService\MatchService.Data\bin\Debug\MatchService.Data.dll
+E:\MatchService\MatchService.Data\bin\Debug\MatchService.Data.pdb
+E:\MatchService\MatchService.Data\bin\Debug\EntityFramework.dll
+E:\MatchService\MatchService.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\MatchService\MatchService.Data\bin\Debug\EntityFramework.xml
+E:\MatchService\MatchService.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\MatchService\MatchService.Data\obj\Debug\MatchService.Data.csprojAssemblyReference.cache
+E:\MatchService\MatchService.Data\obj\Debug\MatchService.Data.csproj.CopyComplete
+E:\MatchService\MatchService.Data\obj\Debug\MatchService.Data.dll
+E:\MatchService\MatchService.Data\obj\Debug\MatchService.Data.pdb

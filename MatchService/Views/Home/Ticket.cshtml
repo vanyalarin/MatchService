@@ -1,0 +1,14 @@
+﻿@model MatchService.Models.TicketViewModel
+
+<h2>Match @Model.PlaceAtMatch.Match.Header</h2>
+<h2>Stadium @Model.Stadium.Name</h2>
+<h4>Run starts at @Model.DateTime.ToString("dd.MM.yy hh:mm")</h4>
+
+<h2>ticket is for place @Model.PlaceAtMatch.Number at sector @Model.PlaceAtMatch.SectorNumber.</h2>
+
+<h4>Price:</h4>
+@foreach (var pc in Model.Ticket.PriceComponents)
+{
+    <span>@pc.Name:@pc.Value$</span>
+    <br />
+}

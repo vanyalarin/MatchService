@@ -1,0 +1,17 @@
+E:\MatchService\MatchService.EF\bin\Debug\MatchService.EF.dll.config
+E:\MatchService\MatchService.EF\bin\Debug\MatchService.EF.dll
+E:\MatchService\MatchService.EF\bin\Debug\MatchService.EF.pdb
+E:\MatchService\MatchService.EF\bin\Debug\EntityFramework.dll
+E:\MatchService\MatchService.EF\bin\Debug\EntityFramework.SqlServer.dll
+E:\MatchService\MatchService.EF\bin\Debug\MatchService.Data.dll
+E:\MatchService\MatchService.EF\bin\Debug\MatchService.Data.pdb
+E:\MatchService\MatchService.EF\bin\Debug\MatchService.Data.dll.config
+E:\MatchService\MatchService.EF\bin\Debug\EntityFramework.xml
+E:\MatchService\MatchService.EF\bin\Debug\EntityFramework.SqlServer.xml
+E:\MatchService\MatchService.EF\obj\Debug\MatchService.EF.csprojAssemblyReference.cache
+E:\MatchService\MatchService.EF\obj\Debug\MatchService.EF.csproj.CopyComplete
+E:\MatchService\MatchService.EF\obj\Debug\MatchService.EF.dll
+E:\MatchService\MatchService.EF\obj\Debug\MatchService.EF.pdb
+E:\MatchService\MatchService.EF\obj\Debug\MatchService.EF.Migrations.Initial.resources
+E:\MatchService\MatchService.EF\obj\Debug\MatchService.EF.csproj.GenerateResource.cache
+E:\MatchService\MatchService.EF\obj\Debug\MatchService.EF.Migrations._1.resources

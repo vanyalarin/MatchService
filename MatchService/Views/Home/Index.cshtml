@@ -1,0 +1,10 @@
+﻿@model MatchService.Models.IndexPageViewModel
+
+<h2>Welcome to Match Service</h2>
+<h3>Choose the stadium:</h3>
+@foreach(var stadium in Model.Stadiums)
+{
+    <div>
+        @Html.ActionLink(stadium.Name, "GetDates", new { stadiumId = stadium.Id })
+    </div>
+}

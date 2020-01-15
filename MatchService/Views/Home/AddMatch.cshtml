@@ -1,0 +1,13 @@
+﻿@model MatchService.Models.AddMatchViewModel
+
+<h2>Choose choose time for new match at @Model.Date.ToShortDateString()</h2>
+
+@foreach(var time in Model.AvailableTimes)
+{
+    if(time.Value)
+    {
+        <div>
+            @Html.ActionLink(time.Key.ToShortTimeString(), "CreateMatch", new { stadiumId = Model.StadiumId, dateTime = time.Key })
+        </div>
+    }
+}

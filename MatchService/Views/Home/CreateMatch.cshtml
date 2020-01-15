@@ -1,0 +1,14 @@
+﻿@model MatchService.Models.CreateMatchViewModel
+
+<h2>Enter the match fields</h2>
+
+@using(Html.BeginForm("CreateMatch", "Home", FormMethod.Post))
+{
+    <div>
+        <input name="stadiumId" type="number" value="@Model.StadiumId" hidden />
+        <input name="dateTime" type="datetime" value="@Model.DateTime" hidden />
+        <label>Enter header:</label>
+        <input name="header" type="text" />
+        <input type="submit" title="Submit" />
+    </div>
+}

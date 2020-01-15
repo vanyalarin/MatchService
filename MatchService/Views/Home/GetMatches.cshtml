@@ -1,0 +1,12 @@
+﻿@model MatchService.Models.GetMatchesViewModel
+
+<h2>Choose the match:</h2>
+
+@foreach(var match in Model.Matches)
+{
+    <div>
+        @Html.ActionLink(match.Header, "PlacesAtMatch", new { matchId = match.Id })
+    </div>
+}
+
+@Html.ActionLink("Add Match", "AddMatch", new { stadiumId = Model.StadiumId, date = Model.Date })
